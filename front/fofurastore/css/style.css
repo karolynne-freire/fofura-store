@@ -14,3 +14,16 @@ body{
 .footer-style{
     background-color: #D2B48C;
 }
+
+.tam-img{
+    height: 360px;
+    width: 280px;
+}
+
+.card-space{
+    margin-top: 30px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
