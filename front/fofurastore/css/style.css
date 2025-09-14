@@ -27,6 +27,12 @@ main {
 
 .btn-style{
     border-color:  #4E342E;
+    background-color: #D2B48C ;
+}
+
+.btn-style:hover{
+  background-color: #4E342E ;
+  color: white;
 }
 
 .footer-style{
@@ -91,9 +97,10 @@ h2{
   border-radius: 5px;
 }
 
-.carousel-item {
+/* .carousel-item {
   height: auto;
   max-height: 500px;
+  width: auto;
 }
 .carousel-item img {
   object-fit: cover;
@@ -101,7 +108,7 @@ h2{
   height: 600px;
   object-fit: contain; 
 }
-
+*/
 .carousel-caption .caption-box {
   background-color: rgba(255,255,255,0.4); 
   color: #4E342E;
@@ -109,7 +116,7 @@ h2{
   border-radius: 8px;
   width: 95%;     
   display: inline-block;
-}
+} 
 
 @media (max-width:1000px) {
   .carousel-caption h2 {
