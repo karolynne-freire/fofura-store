@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body{
@@ -51,11 +52,14 @@ h2{
   padding: 50px 0;
 }
 
+
+
 .sobre h1 {
   color: #4E342E;   
   font-weight: bold;
   margin-bottom: 20px;
 }
+
 
 .sobre p {
   color: #5C4033;
@@ -70,9 +74,9 @@ h2{
   height: auto;      
 }
 
-.form-forma{
-    margin-top: 30px;
-    background-color:#D2B48C ;
+.circle-color{
+    background-color:#D2B48C;
 }
-
-  
+.card-custom {
+    border: 2px solid #D2B48C; 
+  }
