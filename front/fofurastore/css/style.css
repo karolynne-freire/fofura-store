@@ -1,6 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: #FDF5B2A8;
+    color: #333;
+    line-height: 1.6;
 }
+
+main {
+    max-width: 1400px;   
+    margin: 0 auto;   
+    padding: 15px;
+}
+
+
+
 
 .color-nav{
     background-color: #D2B48C;
@@ -27,3 +44,35 @@ body{
 h2{
     margin-bottom: 20px;
 }
+
+.sobre {
+  background-color: #D2B48C; 
+  margin-top: 30px;
+  padding: 50px 0;
+}
+
+.sobre h1 {
+  color: #4E342E;   
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sobre p {
+  color: #5C4033;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.img-sobre {
+  width: 100%;     
+  max-width: 500px;  
+  height: auto;      
+}
+
+.form-forma{
+    margin-top: 30px;
+    background-color:#D2B48C ;
+}
+
+  
