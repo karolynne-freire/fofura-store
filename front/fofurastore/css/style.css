@@ -27,25 +27,25 @@ body{
 
 .carousel-item {
   height: auto;
-  max-height: 500px; /* ajuste conforme necessário */
+  max-height: 500px;
 }
 .carousel-item img {
   object-fit: cover;
   width: 100%;
-  height: 100%;
-  object-fit: contain; /* mantém proporção sem cortar */
+  height: 600px;
+  object-fit: contain; 
 }
 
 .carousel-caption .caption-box {
-  background-color: rgba(255,255,255,0.4); /* fundo preto translúcido */
+  background-color: rgba(255,255,255,0.4); 
   color: #4E342E;
   padding: 15px;
   border-radius: 8px;
-  width: 80%;       /* ocupa toda a largura do caption */
+  width: 95%;     
   display: inline-block;
 }
 
-@media (max-width: 768px) {
+@media (max-width:1000px) {
   .carousel-caption h2 {
     font-size: 1.5rem;
   }
@@ -56,4 +56,11 @@ body{
     padding: 0.5rem 1rem;
     font-size: 0.9rem;
   }
+}
+
+.card-body {
+  border: 1px solid #D2B48C; 
+  border-radius: 8px;    
+  padding: 1rem;          
+  margin: 1rem;         
 }
