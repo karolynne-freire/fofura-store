@@ -97,25 +97,22 @@ h2{
   border-radius: 5px;
 }
 
-/* .carousel-item {
-  height: auto;
-  max-height: 500px;
-  width: auto;
+.carousel-item {
+  height: 100%;
+  max-height: 600px;
+  width: 100%;
 }
 .carousel-item img {
   object-fit: cover;
   width: 100%;
   height: 600px;
-  object-fit: contain; 
 }
 */
 .carousel-caption .caption-box {
-  background-color: rgba(255,255,255,0.4); 
   color: #4E342E;
   padding: 15px;
   border-radius: 8px;
-  width: 95%;     
-  display: inline-block;
+  width: 100%;     
 } 
 
 @media (max-width:1000px) {
