@@ -13,24 +13,26 @@
     <header>
         <nav class="navbar navbar-expand-lg  color-nav">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Fofura Store</a>
+              <a class="navbar-brand" href="index.html">
+                <img src="imagens/ideia-logo.png" alt="Fofura Store" style="height: 60px;">Fofura Store
+              </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link " aria-current="page" href="index.html">Home</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Produtos
                     </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">destaque</a></li>
-                      <li><a class="dropdown-item" href="#">Ofertas especiais</a></li>
+                    <ul class="dropdown-menu dropdown-color">
+                      <li><a class="dropdown-item teste" href="#destaque">Destaque</a></li>
+                      <li><a class="dropdown-item" href="#ofertas">Ofertas Especiais</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Unissex</a></li>
+                      <li><a class="dropdown-item" href="#produto">Produtos Gerais</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
@@ -121,7 +123,7 @@
           </div>
         </div> 
       </section>
-    <section class="card-space">
+    <section class="card-space" id="destaque">
       <div class="container-fluid">
         <h2>Produtos em destaque</h2>
          <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-4">
@@ -379,7 +381,7 @@
             </div>
     </section> 
 
-    <section class="card-space">
+    <section class="card-space" id="ofertas">
       <div class="container-fluid">
         <h2>Ofertas especiais</h2>
         <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-4">
@@ -513,7 +515,7 @@
               <div class="card h-100">
                   <img src="imagens/kit-infantil.jpg" class="tam-img rounded-top" alt="Caixa Surpresa">
                   <div class="card-body">
-                      <h5 class="card-title">Caixa Surpresa</h5>
+                      <h5 class="card-title">Caixa Surpresa Infantil</h5>
                       <p class="card-text">R$ 99,99</p>
                       <div class="d-grid gap-2">
                           <button class="btn btn-style" type="button" data-bs-toggle="modal" data-bs-target="#modalCaixaSurpresa">Comprar</button>
@@ -664,7 +666,7 @@
       </div>
     </section>
     <section>
-      <div>
+      <div class="depoimento">
         <h2>Depoimentos</h2>
       </div>
       <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
@@ -741,7 +743,7 @@
       </div>
 
     </section>
-    <section class="card-space">
+    <section class="card-space" id="produto">
       <div class="container-fluid">
         <h2>Produtos</h2>
          <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-4">

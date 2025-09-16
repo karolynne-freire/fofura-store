@@ -17,9 +17,26 @@ main {
     padding: 15px;
 }
 
+.navbar-nav .nav-link:hover {
+  border-bottom: 2px solid #4E342E;
+  transition: all 0.3s ease;
+}
 
+.dropdown-menu .dropdown-item {
+  color: #4E342E;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
 
+.dropdown-menu .dropdown-item:hover {
+  background-color: #4E342E;
+  color: #ffffff;
+}
 
+.nav-link.active {
+  font-weight: bold;
+  color: #4E342E;
+}
 .color-nav{
     background-color: #D2B48C;
     color: #4E342E;
@@ -33,6 +50,10 @@ main {
 .btn-style:hover{
   background-color: #4E342E ;
   color: white;
+}
+
+.dropdown-color{
+  background-color: #D2B48C ;
 }
 
 .footer-style{
@@ -50,6 +71,11 @@ main {
 
 h2{
     margin-bottom: 20px;
+}
+
+
+.depoimento{
+margin-top: 30px;
 }
 
 .sobre {
