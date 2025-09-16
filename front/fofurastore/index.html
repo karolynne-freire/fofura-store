@@ -127,78 +127,256 @@
          <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-4">
             <div class="col">
               <div class="card h-100">
-                <img src="imagens/camisetas.jpg" class="tam-img rounded-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Camisas Infantis Feminina</h5>
-                <p class="card-text">R$ 35,99</p>
-                <div class="d-grid gap-2">
-                    <button class="btn btn-style " type="button">Comprar</button>
-                </div>
-                </div>
+                  <img src="imagens/camisetas.jpg" class="tam-img rounded-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Camisas Feminina</h5>
+                      <p class="card-text">R$ 35,99</p>
+                      <div class="d-grid gap-2">
+                          <button class="btn btn-style" type="button" data-bs-toggle="modal" data-bs-target="#modalProduto">Comprar</button>
+                      </div>
+                  </div>
               </div>
+          </div>
+          <div class="modal fade" id="modalProduto" tabindex="-1" aria-labelledby="modalProdutoLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="modalProdutoLabel">Camisas Feminina</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <div class="row">
+                              <div class="col-md-8 order-md-1 d-flex flex-column justify-content-center">
+                                  <p>Detalhes do produto:</p>
+                                  <ul>
+                                    <li>Tamanhos: P, M, G</li>
+                                    <li>Cores: Branca, Rosa, Amarela</li>
+                                    <li>Material: 100% Algodão</li>
+                                  </ul>
+                                  <p>Preço: R$ 35,99</p>
+                              </div>
+                              <div class="col-md-4 order-md-2">
+                                  <img src="imagens/camisetas.jpg" class="img-fluid rounded mb-3" alt="Camisa Feminina">
+                              </div>
+                          </div>
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                          <button type="button" class="btn btn-style">Adicionar ao Carrinho</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+            <div class="col">
+              <div class="card h-100">
+                  <img src="imagens/sapato-infantil-masculinoo.jpg" class="tam-img rounded-top" alt="Sapato Masculino">
+                  <div class="card-body">
+                      <h5 class="card-title">Sapato Masculino</h5>
+                      <p class="card-text">R$ 49,99</p>
+                      <div class="d-grid gap-2">
+                          <button class="btn btn-style" type="button" data-bs-toggle="modal" data-bs-target="#modalSapato">Comprar</button>
+                      </div>
+                  </div>
+              </div>
+            </div>
+              <div class="modal fade" id="modalSapato" tabindex="-1" aria-labelledby="modalSapatoLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                              <h5 class="modal-title" id="modalSapatoLabel">Sapato Masculino</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                              <div class="row">
+                                  <div class="col-md-8 order-md-1 d-flex flex-column justify-content-center">
+                                      <p>Detalhes do produto:</p>
+                                      <ul>
+                                          <li>Tamanhos: 13 ao 18</li>
+                                          <li>Cores: Preto, Marrom, Azul</li>
+                                          <li>Material: Jeans</li>
+                                      </ul>
+                                      <p>Preço: R$ 49,99</p>
+                                  </div>
+                                  <div class="col-md-4 order-md-2">
+                                      <img src="imagens/sapato-infantil-masculinoo.jpg" class="img-fluid rounded mb-3" alt="Sapato Masculino">
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                              <button type="button" class="btn btn-style">Adicionar ao Carrinho</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                    <img src="imagens/brinquedo-de-pelucia-croche.jpg" class="tam-img rounded-top" alt="Pelúcias de Crochê">
+                    <div class="card-body">
+                        <h5 class="card-title">Pelúcias de Crochê</h5>
+                        <p class="card-text">R$ 89,99</p>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-style" type="button" data-bs-toggle="modal" data-bs-target="#modalPelucia">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modalPelucia" tabindex="-1" aria-labelledby="modalPeluciaLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalPeluciaLabel">Pelúcias de Crochê</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-8 order-md-1 d-flex flex-column justify-content-center">
+                                    <p>Detalhes do produto:</p>
+                                    <ul>
+                                        <li>Tamanho: Aproximadamente 20cm</li>
+                                        <li>Cores: Várias opções</li>
+                                        <li>Material: Linha de algodão</li>
+                                    </ul>
+                                    <p>Preço: R$ 89,99</p>
+                                </div>
+                                <div class="col-md-4 order-md-2">
+                                    <img src="imagens/brinquedo-de-pelucia-croche.jpg" class="img-fluid rounded mb-3" alt="Pelúcias de Crochê">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            <button type="button" class="btn btn-style">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="col">
+                <div class="card h-100">
+                    <img src="imagens/calca.jpg" class="tam-img rounded-top" alt="Calça Masculina">
+                    <div class="card-body">
+                        <h5 class="card-title">Calça Masculina</h5>
+                        <p class="card-text">R$ 29,99</p>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-style" type="button" data-bs-toggle="modal" data-bs-target="#modalCalca">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modalCalca" tabindex="-1" aria-labelledby="modalCalcaLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalCalcaLabel">Calça Masculina</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-8 order-md-1 d-flex flex-column justify-content-center">
+                                    <p>Detalhes do produto:</p>
+                                    <ul>
+                                        <li>Tamanhos: 38cm ao 46cm</li>
+                                        <li>Cores: Preta, Azul, Verde</li>
+                                        <li>Material: Algodão e Elastano</li>
+                                    </ul>
+                                    <p>Preço: R$ 29,99</p>
+                                </div>
+                                <div class="col-md-4 order-md-2">
+                                    <img src="imagens/calca.jpg" class="img-fluid rounded mb-3" alt="Calça Masculina">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            <button type="button" class="btn btn-style">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="col">
-                <div class="card h-100">
-                  <img src="imagens/sapato-infantil-masculinoo.jpg" class="tam-img rounded-top" alt="...">
+              <div class="card h-100">
+                  <img src="imagens/pelucia.jpg" class="tam-img rounded-top" alt="Pelúcia de Decoração">
                   <div class="card-body">
-                  <h5 class="card-title">Sapato Infantil Masculino</h5>
-                  <p class="card-text">R$ 49,99</p>
-                  <div class="d-grid gap-2">
-                      <button class="btn btn-style" type="button">Comprar</button>
+                      <h5 class="card-title">Pelúcia de Decoração</h5>
+                      <p class="card-text">R$ 59,99</p>
+                      <div class="d-grid gap-2">
+                          <button class="btn btn-style" type="button" data-bs-toggle="modal" data-bs-target="#modalPeluciaDecoracao">Comprar</button>
+                      </div>
                   </div>
-                  </div>
-                </div>
               </div>
-              <div class="col">
-                <div class="card h-100">
-                  <img src="imagens/brinquedo-de-pelucia-croche.jpg" class="tam-img rounded-top" alt="...">
-                  <div class="card-body">
-                  <h5 class="card-title">Pelúcias de Crochê</h5>
-                  <p class="card-text">R$ 89,99</p>
-                  <div class="d-grid gap-2">
-                      <button class="btn btn-style" type="button">Comprar</button>
-                  </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card h-100">
-                  <img src="imagens/calca.jpg" class="tam-img rounded-top" alt="...">
-                  <div class="card-body">
-                  <h5 class="card-title">Calça Infantil Masculina</h5>
-                  <p class="card-text">R$ 29,99</p>
-                  <div class="d-grid gap-2">
-                      <button class="btn btn-style" type="button">Comprar</button>
-                  </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card h-100">
-                  <img src="imagens/pelucia.jpg" class="tam-img rounded-top" alt="...">
-                  <div class="card-body">
-                  <h5 class="card-title">Pelúcia de Decoração</h5>
-                  <p class="card-text">R$ 59,99</p>
-                  <div class="d-grid gap-2">
-                      <button class="btn btn-style" type="button">Comprar</button>
-                  </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card h-100">
-                  <img src="imagens/meia-bebe.jpg" class="tam-img rounded-top" alt="...">
-                  <div class="card-body">
-                  <h5 class="card-title">Meias de Bebê Masculina</h5>
-                  <p class="card-text">R$ 19,99</p>
-                  <div class="d-grid gap-2">
-                      <button class="btn btn-style " type="button">Comprar</button>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
+          <div class="modal fade" id="modalPeluciaDecoracao" tabindex="-1" aria-labelledby="modalPeluciaDecoracaoLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="modalPeluciaDecoracaoLabel">Pelúcia de Decoração</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <div class="row">
+                              <div class="col-md-8 order-md-1 d-flex flex-column justify-content-center">
+                                  <p>Detalhes do produto:</p>
+                                  <ul>
+                                      <li>Tamanho: 30cm</li>
+                                      <li>Cores: Variadas</li>
+                                      <li>Material: 100% Poliéster</li>
+                                  </ul>
+                                  <p>Preço: R$ 59,99</p>
+                              </div>
+                              <div class="col-md-4 order-md-2">
+                                  <img src="imagens/pelucia.jpg" class="img-fluid rounded mb-3" alt="Pelúcia de Decoração">
+                              </div>
+                          </div>
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                          <button type="button" class="btn btn-style">Adicionar ao Carrinho</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="imagens/meia-bebe.jpg" class="tam-img rounded-top" alt="Meias Masculina">
+                    <div class="card-body">
+                        <h5 class="card-title">Meias Masculina</h5>
+                        <p class="card-text">R$ 19,99</p>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-style" type="button" data-bs-toggle="modal" data-bs-target="#modalMeia">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modalMeia" tabindex="-1" aria-labelledby="modalMeiaLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalMeiaLabel">Meias Masculina</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-8 order-md-1 d-flex flex-column justify-content-center">
+                                    <p>Detalhes do produto:</p>
+                                    <ul>
+                                        <li>Tamanho: Único</li>
+                                        <li>Cores: Cinza, Preta, Branca</li>
+                                        <li>Material: Algodão e Poliamida</li>
+                                    </ul>
+                                    <p>Preço: R$ 19,99</p>
+                                </div>
+                                <div class="col-md-4 order-md-2">
+                                    <img src="imagens/meia-bebe.jpg" class="img-fluid rounded mb-3" alt="Meias Masculina">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            <button type="button" class="btn btn-style">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </section> 
 
     <section class="card-space">
@@ -206,80 +384,259 @@
         <h2>Ofertas especiais</h2>
         <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-4">
             <div class="col">
-              <div class="card h-100">
-                <img src="imagens/kit-brinquedos.jpg" class="tam-img rounded-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Cesta de Brinquedos</h5>
-                <p class="card-text">R$ 79,99</p>
-                <div class="d-grid gap-2">
-                    <button class="btn btn-style " type="button">Comprar</button>
+                <div class="card h-100">
+                    <img src="imagens/kit-brinquedos.jpg" class="tam-img rounded-top" alt="Cesta de Brinquedos">
+                    <div class="card-body">
+                        <h5 class="card-title">Cesta de Brinquedos</h5>
+                        <p class="card-text">R$ 79,99</p>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-style" type="button" data-bs-toggle="modal" data-bs-target="#modalCestaBrinquedos">Comprar</button>
+                        </div>
+                    </div>
                 </div>
+            </div>
+            <div class="modal fade" id="modalCestaBrinquedos" tabindex="-1" aria-labelledby="modalCestaBrinquedosLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalCestaBrinquedosLabel">Cesta de Brinquedos</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-8 order-md-1 d-flex flex-column justify-content-center">
+                                    <p>Detalhes do produto:</p>
+                                    <ul>
+                                        <li>Conteúdo: Vários brinquedos</li>
+                                        <li>Cores: Mix de Cores</li>
+                                        <li>Material: Plástico e madeira</li>
+                                    </ul>
+                                    <p>Preço: R$ 79,99</p>
+                                </div>
+                                <div class="col-md-4 order-md-2">
+                                    <img src="imagens/kit-brinquedos.jpg" class="img-fluid rounded mb-3" alt="Cesta de Brinquedos">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            <button type="button" class="btn btn-style">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
             <div class="col">
-                <div class="card h-100">
-                  <img src="imagens/kit-higiene-infantil.jpg" class="tam-img rounded-top" alt="...">
+              <div class="card h-100">
+                  <img src="imagens/kit-higiene-infantil.jpg" class="tam-img rounded-top" alt="Kit Higiene Infantil">
                   <div class="card-body">
-                  <h5 class="card-title">Kit Higiene Infantil</h5>
-                  <p class="card-text">R$ 85,99</p>
-                  <div class="d-grid gap-2">
-                      <button class="btn btn-style" type="button">Comprar</button>
+                      <h5 class="card-title">Kit Higiene Infantil</h5>
+                      <p class="card-text">R$ 85,99</p>
+                      <div class="d-grid gap-2">
+                          <button class="btn btn-style" type="button" data-bs-toggle="modal" data-bs-target="#modalKitHigiene">Comprar</button>
+                      </div>
                   </div>
-                  </div>
-                </div>
               </div>
-              <div class="col">
-                <div class="card h-100">
-                  <img src="imagens/kit-pelucias.jpg" class="tam-img rounded-top" alt="...">
+          </div>
+          <div class="modal fade" id="modalKitHigiene" tabindex="-1" aria-labelledby="modalKitHigieneLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="modalKitHigieneLabel">Kit Higiene Infantil</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <div class="row">
+                              <div class="col-md-8 order-md-1 d-flex flex-column justify-content-center">
+                                  <p>Detalhes do produto:</p>
+                                  <ul>
+                                      <li>Contém: Pente, escova, saboneteira</li>
+                                      <li>Cores: Branca, Azul, Rosa</li>
+                                      <li>Material: Plástico e cerdas macias</li>
+                                  </ul>
+                                  <p>Preço: R$ 85,99</p>
+                              </div>
+                              <div class="col-md-4 order-md-2">
+                                  <img src="imagens/kit-higiene-infantil.jpg" class="img-fluid rounded mb-3" alt="Kit Higiene Infantil">
+                              </div>
+                          </div>
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                          <button type="button" class="btn btn-style">Adicionar ao Carrinho</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <div class="card h-100">
+                  <img src="imagens/kit-pelucias.jpg" class="tam-img rounded-top" alt="Kit Pelúcias de Crochê">
                   <div class="card-body">
-                  <h5 class="card-title">Kit Pelúcias de Crochê</h5>
-                  <p class="card-text">R$ 129,99</p>
-                  <div class="d-grid gap-2">
-                      <button class="btn btn-style" type="button">Comprar</button>
+                      <h5 class="card-title">Kit Pelúcias de Crochê</h5>
+                      <p class="card-text">R$ 129,99</p>
+                      <div class="d-grid gap-2">
+                          <button class="btn btn-style" type="button" data-bs-toggle="modal" data-bs-target="#modalKitPelucias">Comprar</button>
+                      </div>
                   </div>
-                  </div>
-                </div>
               </div>
-              <div class="col">
-                <div class="card h-100">
-                  <img src="imagens/kit-infantil.jpg" class="tam-img rounded-top" alt="...">
+          </div>
+          <div class="modal fade" id="modalKitPelucias" tabindex="-1" aria-labelledby="modalKitPeluciasLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="modalKitPeluciasLabel">Kit Pelúcias de Crochê</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <div class="row">
+                              <div class="col-md-8 order-md-1 d-flex flex-column justify-content-center">
+                                  <p>Detalhes do produto:</p>
+                                  <ul>
+                                      <li>Tamanho: Variados</li>
+                                      <li>Cores: Mix de Cores</li>
+                                      <li>Material: Linha de algodão</li>
+                                  </ul>
+                                  <p>Preço: R$ 129,99</p>
+                              </div>
+                              <div class="col-md-4 order-md-2">
+                                  <img src="imagens/kit-pelucias.jpg" class="img-fluid rounded mb-3" alt="Kit Pelúcias de Crochê">
+                              </div>
+                          </div>
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                          <button type="button" class="btn btn-style">Adicionar ao Carrinho</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <div class="card h-100">
+                  <img src="imagens/kit-infantil.jpg" class="tam-img rounded-top" alt="Caixa Surpresa">
                   <div class="card-body">
-                  <h5 class="card-title">Caixa Surpresa Infantil</h5>
-                  <p class="card-text">R$ 99,99</p>
-                  <div class="d-grid gap-2">
-                      <button class="btn btn-style" type="button">Comprar</button>
+                      <h5 class="card-title">Caixa Surpresa</h5>
+                      <p class="card-text">R$ 99,99</p>
+                      <div class="d-grid gap-2">
+                          <button class="btn btn-style" type="button" data-bs-toggle="modal" data-bs-target="#modalCaixaSurpresa">Comprar</button>
+                      </div>
                   </div>
-                  </div>
-                </div>
               </div>
-              <div class="col">
-                <div class="card h-100">
-                  <img src="imagens/kit-higiene-binquedo.jpg" class="tam-img rounded-top" alt="...">
+          </div>
+          <div class="modal fade" id="modalCaixaSurpresa" tabindex="-1" aria-labelledby="modalCaixaSurpresaLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="modalCaixaSurpresaLabel">Caixa Surpresa</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <div class="row">
+                              <div class="col-md-8 order-md-1 d-flex flex-column justify-content-center">
+                                  <p>Detalhes do produto:</p>
+                                  <ul>
+                                      <li>Conteúdo: Brinquedos e acessórios</li>
+                                      <li>Cores: Mistura de cores</li>
+                                      <li>Material: Diversos</li>
+                                  </ul>
+                                  <p>Preço: R$ 99,99</p>
+                              </div>
+                              <div class="col-md-4 order-md-2">
+                                  <img src="imagens/kit-infantil.jpg" class="img-fluid rounded mb-3" alt="Caixa Surpresa">
+                              </div>
+                          </div>
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                          <button type="button" class="btn btn-style">Adicionar ao Carrinho</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <div class="card h-100">
+                  <img src="imagens/kit-higiene-binquedo.jpg" class="tam-img rounded-top" alt="Kit Higiene Brinquedos">
                   <div class="card-body">
-                  <h5 class="card-title">Kit Higiene e Brinquedos</h5>
-                  <p class="card-text">R$ 145,99</p>
-                  <div class="d-grid gap-2">
-                      <button class="btn btn-style" type="button">Comprar</button>
+                      <h5 class="card-title">Kit Higiene Brinquedos</h5>
+                      <p class="card-text">R$ 145,99</p>
+                      <div class="d-grid gap-2">
+                          <button class="btn btn-style" type="button" data-bs-toggle="modal" data-bs-target="#modalKitHigieneBrinquedos">Comprar</button>
+                      </div>
                   </div>
-                  </div>
-                </div>
               </div>
-              <div class="col">
-                <div class="card h-100">
-                  <img src="imagens/cesta-pelucia.jpg" class="tam-img rounded-top" alt="...">
+          </div>
+          <div class="modal fade" id="modalKitHigieneBrinquedos" tabindex="-1" aria-labelledby="modalKitHigieneBrinquedosLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="modalKitHigieneBrinquedosLabel">Kit Higiene Brinquedos</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <div class="row">
+                              <div class="col-md-8 order-md-1 d-flex flex-column justify-content-center">
+                                  <p>Detalhes do produto:</p>
+                                  <ul>
+                                      <li>Contém: Itens de higiene e 1 brinquedo</li>
+                                      <li>Cores: Branca, Cinza</li>
+                                      <li>Material: Plástico, tecido</li>
+                                  </ul>
+                                  <p>Preço: R$ 145,99</p>
+                              </div>
+                              <div class="col-md-4 order-md-2">
+                                  <img src="imagens/kit-higiene-binquedo.jpg" class="img-fluid rounded mb-3" alt="Kit Higiene Brinquedos">
+                              </div>
+                          </div>
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                          <button type="button" class="btn btn-style">Adicionar ao Carrinho</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <div class="card h-100">
+                  <img src="imagens/cesta-pelucia.jpg" class="tam-img rounded-top" alt="Cesta de Pelúcias">
                   <div class="card-body">
-                  <h5 class="card-title">Cesta de Pelúcias</h5>
-                  <p class="card-text">R$ 169,99</p>
-                  <div class="d-grid gap-2">
-                      <button class="btn btn-style " type="button">Comprar</button>
+                      <h5 class="card-title">Cesta de Pelúcias</h5>
+                      <p class="card-text">R$ 169,99</p>
+                      <div class="d-grid gap-2">
+                          <button class="btn btn-style" type="button" data-bs-toggle="modal" data-bs-target="#modalCestaPelucia">Comprar</button>
+                      </div>
                   </div>
-                  </div>
-                </div>
               </div>
-            </div>
+          </div>
+          <div class="modal fade" id="modalCestaPelucia" tabindex="-1" aria-labelledby="modalCestaPeluciaLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="modalCestaPeluciaLabel">Cesta de Pelúcias</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <div class="row">
+                              <div class="col-md-8 order-md-1 d-flex flex-column justify-content-center">
+                                  <p>Detalhes do produto:</p>
+                                  <ul>
+                                      <li>Conteúdo: 5 pelúcias</li>
+                                      <li>Cores: Mix de Cores</li>
+                                      <li>Material: 100% Poliéster</li>
+                                  </ul>
+                                  <p>Preço: R$ 169,99</p>
+                              </div>
+                              <div class="col-md-4 order-md-2">
+                                  <img src="imagens/cesta-pelucia.jpg" class="img-fluid rounded mb-3" alt="Cesta de Pelúcias">
+                              </div>
+                          </div>
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                          <button type="button" class="btn btn-style">Adicionar ao Carrinho</button>
+                      </div>
+                  </div>
+              </div>
           </div>
     </section> 
+    
     <section class="sobre" id="sobre">
       <div class="container">
         <div class="row align-items-center">
@@ -390,151 +747,511 @@
          <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-4">
               <div class="col">
                 <div class="card h-100">
-                  <img src="imagens/sapatos-de-bebe.jpg" class="tam-img rounded-top" alt="...">
-                  <div class="card-body">
-                  <h5 class="card-title">Sapatos de Bebê Masculino</h5>
-                  <p class="card-text">R$ 49,99</p>
-                  <div class="d-grid gap-2">
-                      <button class="btn btn-style " type="button">Comprar</button>
-                  </div>
-                  </div>
+                    <img src="imagens/sapatos-de-bebe.jpg" class="tam-img rounded-top" alt="Sapato Masculino">
+                    <div class="card-body">
+                        <h5 class="card-title">Sapato Masculino</h5>
+                        <p class="card-text">R$ 49,99</p>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-style" type="button" data-bs-toggle="modal" data-bs-target="#modalSapatoBebe">Comprar</button>
+                        </div>
+                    </div>
                 </div>
+            </div>
+            <div class="modal fade" id="modalSapatoBebe" tabindex="-1" aria-labelledby="modalSapatoBebeLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalSapatoBebeLabel">Sapato Masculino</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-8 order-md-1 d-flex flex-column justify-content-center">
+                                    <p>Detalhes do produto:</p>
+                                    <ul>
+                                        <li>Tamanho: 16 ao 21</li>
+                                        <li>Cores: Cinza, Azul, Marrom</li>
+                                        <li>Material: Tecido acolchoado</li>
+                                    </ul>
+                                    <p>Preço: R$ 49,99</p>
+                                </div>
+                                <div class="col-md-4 order-md-2">
+                                    <img src="imagens/sapatos-de-bebe.jpg" class="img-fluid rounded mb-3" alt="Sapato Masculino">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            <button type="button" class="btn btn-style">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="col">
+                  <div class="card h-100">
+                      <img src="imagens/luminaria.jpg" class="tam-img rounded-top" alt="Luminária de Lua">
+                      <div class="card-body">
+                          <h5 class="card-title">Luminária de Lua</h5>
+                          <p class="card-text">R$ 119,99</p>
+                          <div class="d-grid gap-2">
+                              <button class="btn btn-style" type="button" data-bs-toggle="modal" data-bs-target="#modalLuminaria">Comprar</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="modal fade" id="modalLuminaria" tabindex="-1" aria-labelledby="modalLuminariaLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                              <h5 class="modal-title" id="modalLuminariaLabel">Luminária de Lua</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                              <div class="row">
+                                  <div class="col-md-8 order-md-1 d-flex flex-column justify-content-center">
+                                      <p>Detalhes do produto:</p>
+                                      <ul>
+                                          <li>Altura: 20cm</li>
+                                          <li>Material: PLA (Plástico)</li>
+                                          <li>Características: Bateria recarregável, 3 cores</li>
+                                      </ul>
+                                      <p>Preço: R$ 119,99</p>
+                                  </div>
+                                  <div class="col-md-4 order-md-2">
+                                      <img src="imagens/luminaria.jpg" class="img-fluid rounded mb-3" alt="Luminária de Lua">
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                              <button type="button" class="btn btn-style">Adicionar ao Carrinho</button>
+                          </div>
+                      </div>
+                  </div>
               </div>
               <div class="col">
                 <div class="card h-100">
-                  <img src="imagens/luminaria.jpg" class="tam-img rounded-top" alt="...">
-                  <div class="card-body">
-                  <h5 class="card-title">Luminária de Lua</h5>
-                  <p class="card-text">R$ 119,99</p>
-                  <div class="d-grid gap-2">
-                      <button class="btn btn-style " type="button">Comprar</button>
-                  </div>
-                  </div>
+                    <img src="imagens/conjunto-masculino.jpg" class="tam-img rounded-top" alt="Conjunto Masculino">
+                    <div class="card-body">
+                        <h5 class="card-title">Conjunto Masculino</h5>
+                        <p class="card-text">R$ 99,99</p>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-style" type="button" data-bs-toggle="modal" data-bs-target="#modalConjuntoMasculino">Comprar</button>
+                        </div>
+                    </div>
                 </div>
+            </div>
+            <div class="modal fade" id="modalConjuntoMasculino" tabindex="-1" aria-labelledby="modalConjuntoMasculinoLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalConjuntoMasculinoLabel">Conjunto Masculino</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-8 order-md-1 d-flex flex-column justify-content-center">
+                                    <p>Detalhes do produto:</p>
+                                    <ul>
+                                        <li>Tamanhos: P, M, G, GG</li>
+                                        <li>Cores: Azul, Preto, Verde</li>
+                                        <li>Material: Algodão e Poliéster</li>
+                                    </ul>
+                                    <p>Preço: R$ 99,99</p>
+                                </div>
+                                <div class="col-md-4 order-md-2">
+                                    <img src="imagens/conjunto-masculino.jpg" class="img-fluid rounded mb-3" alt="Conjunto Masculino">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            <button type="button" class="btn btn-style">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="col">
+                  <div class="card h-100">
+                      <img src="imagens/luminaria2.jpg" class="tam-img rounded-top" alt="Decoração para quarto">
+                      <div class="card-body">
+                          <h5 class="card-title">Decoração para quarto</h5>
+                          <p class="card-text">R$ 129,99</p>
+                          <div class="d-grid gap-2">
+                              <button class="btn btn-style" type="button" data-bs-toggle="modal" data-bs-target="#modalDecoracaoQuarto">Comprar</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="modal fade" id="modalDecoracaoQuarto" tabindex="-1" aria-labelledby="modalDecoracaoQuartoLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                              <h5 class="modal-title" id="modalDecoracaoQuartoLabel">Decoração para quarto</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                              <div class="row">
+                                  <div class="col-md-8 order-md-1 d-flex flex-column justify-content-center">
+                                      <p>Detalhes do produto:</p>
+                                      <ul>
+                                          <li>Inclui: 3 luminárias e enfeites</li>
+                                          <li>Cores: Estrelas douradas</li>
+                                          <li>Material: Plástico e acrílico</li>
+                                      </ul>
+                                      <p>Preço: R$ 129,99</p>
+                                  </div>
+                                  <div class="col-md-4 order-md-2">
+                                      <img src="imagens/luminaria2.jpg" class="img-fluid rounded mb-3" alt="Decoração para quarto">
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                              <button type="button" class="btn btn-style">Adicionar ao Carrinho</button>
+                          </div>
+                      </div>
+                  </div>
               </div>
               <div class="col">
-                <div class="card h-100">
-                  <img src="imagens/conjunto-masculino.jpg" class="tam-img rounded-top" alt="...">
+              <div class="card h-100">
+                  <img src="imagens/ursinho.jpg" class="tam-img rounded-top" alt="Canto de Brinquedos">
                   <div class="card-body">
-                  <h5 class="card-title">Conjunto Infanil Masculino</h5>
-                  <p class="card-text">R$ 99,99</p>
-                  <div class="d-grid gap-2">
-                      <button class="btn btn-style " type="button">Comprar</button>
+                      <h5 class="card-title">Canto de Brinquedos</h5>
+                      <p class="card-text">R$ 89,99</p>
+                      <div class="d-grid gap-2">
+                          <button class="btn btn-style" type="button" data-bs-toggle="modal" data-bs-target="#modalCantoBrinquedos">Comprar</button>
+                      </div>
                   </div>
-                  </div>
-                </div>
               </div>
-              <div class="col">
-                <div class="card h-100">
-                  <img src="imagens/luminaria2.jpg" class="tam-img rounded-top" alt="...">
-                  <div class="card-body">
-                  <h5 class="card-title">Decoração para quarto</h5>
-                  <p class="card-text">R$ 129,99</p>
-                  <div class="d-grid gap-2">
-                      <button class="btn btn-style " type="button">Comprar</button>
-                  </div>
-                  </div>
-                </div>
               </div>
-              <div class="col">
-                <div class="card h-100">
-                  <img src="imagens/ursinho.jpg" class="tam-img rounded-top" alt="...">
-                  <div class="card-body">
-                  <h5 class="card-title">Cantinho de Brinquedos</h5>
-                  <p class="card-text">R$ 89,99</p>
-                  <div class="d-grid gap-2">
-                      <button class="btn btn-style " type="button">Comprar</button>
-                  </div>
-                  </div>
+              <div class="modal fade" id="modalCantoBrinquedos" tabindex="-1" aria-labelledby="modalCantoBrinquedosLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalCantoBrinquedosLabel">Canto de Brinquedos</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-8 order-md-1 d-flex flex-column justify-content-center">
+                                    <p>Detalhes do produto:</p>
+                                    <ul>
+                                        <li>Conteúdo: Ursinho de pelúcia e cesto</li>
+                                        <li>Cores: Bege e branco</li>
+                                        <li>Material: Pelúcia e algodão</li>
+                                    </ul>
+                                    <p>Preço: R$ 89,99</p>
+                                </div>
+                                <div class="col-md-4 order-md-2">
+                                    <img src="imagens/ursinho.jpg" class="img-fluid rounded mb-3" alt="Canto de Brinquedos">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            <button type="button" class="btn btn-style">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="col">
+            </div>
+            <div class="col">
                 <div class="card h-100">
-                  <img src="imagens/abajur.jpg" class="tam-img rounded-top" alt="...">
-                  <div class="card-body">
-                  <h5 class="card-title">Luminária Arco-Íris</h5>
-                  <p class="card-text">R4 109,99</p>
-                  <div class="d-grid gap-2">
-                      <button class="btn btn-style " type="button">Comprar</button>
-                  </div>
-                  </div>
+                    <img src="imagens/abajur.jpg" class="tam-img rounded-top" alt="Luminária Arco-Íris">
+                    <div class="card-body">
+                        <h5 class="card-title">Luminária Arco-Íris</h5>
+                        <p class="card-text">R$ 109,99</p>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-style" type="button" data-bs-toggle="modal" data-bs-target="#modalLuminariaArcoIris">Comprar</button>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="col">
-                <div class="card h-100">
-                  <img src="imagens/caixa-minimalista.jpg" class="tam-img rounded-top" alt="...">
-                  <div class="card-body">
-                  <h5 class="card-title">Caixa Minimalista</h5>
-                  <p class="card-text">R$ 79,99</p>
-                  <div class="d-grid gap-2">
-                      <button class="btn btn-style " type="button">Comprar</button>
-                  </div>
-                  </div>
+            </div>
+            <div class="modal fade" id="modalLuminariaArcoIris" tabindex="-1" aria-labelledby="modalLuminariaArcoIrisLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalLuminariaArcoIrisLabel">Luminária Arco-Íris</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-8 order-md-1 d-flex flex-column justify-content-center">
+                                <p>Detalhes do produto:</p>
+                                <ul>
+                                    <li>Altura: 25cm</li>
+                                    <li>Material: Acrílico</li>
+                                    <li>Características: Luzes LED coloridas</li>
+                                </ul>
+                                <p>Preço: R$ 109,99</p>
+                            </div>
+                            <div class="col-md-4 order-md-2">
+                                <img src="imagens/abajur.jpg" class="img-fluid rounded mb-3" alt="Luminária Arco-Íris">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        <button type="button" class="btn btn-style">Adicionar ao Carrinho</button>
+                    </div>
                 </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="imagens/caixa-minimalista.jpg" class="tam-img rounded-top" alt="Caixa Minimalista">
+                <div class="card-body">
+                    <h5 class="card-title">Caixa Minimalista</h5>
+                    <p class="card-text">R$ 79,99</p>
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-style" type="button" data-bs-toggle="modal" data-bs-target="#modalCaixaMinimalista">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modalCaixaMinimalista" tabindex="-1" aria-labelledby="modalCaixaMinimalistaLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="modalCaixaMinimalistaLabel">Caixa Minimalista</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                      <div class="row">
+                          <div class="col-md-8 order-md-1 d-flex flex-column justify-content-center">
+                              <p>Detalhes do produto:</p>
+                              <ul>
+                                  <li>Contém: Pente, saboneteira</li>
+                                  <li>Cores: Branca e cinza</li>
+                                  <li>Material: Silicone e plástico</li>
+                              </ul>
+                              <p>Preço: R$ 79,99</p>
+                          </div>
+                          <div class="col-md-4 order-md-2">
+                              <img src="imagens/caixa-minimalista.jpg" class="img-fluid rounded mb-3" alt="Caixa Minimalista">
+                          </div>
+                      </div>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                      <button type="button" class="btn btn-style">Adicionar ao Carrinho</button>
+                  </div>
               </div>
-              <div class="col">
-                <div class="card h-100">
-                  <img src="imagens/babadores-para-bebes.jpg" class="tam-img rounded-top" alt="...">
-                  <div class="card-body">
+          </div>
+      </div>
+      <div class="col">
+          <div class="card h-100">
+              <img src="imagens/babadores-para-bebes.jpg" class="tam-img rounded-top" alt="Kit de Babadores">
+              <div class="card-body">
                   <h5 class="card-title">Kit de Babadores</h5>
                   <p class="card-text">R$ 49,99</p>
                   <div class="d-grid gap-2">
-                      <button class="btn btn-style " type="button">Comprar</button>
+                      <button class="btn btn-style" type="button" data-bs-toggle="modal" data-bs-target="#modalKitBabadores">Comprar</button>
                   </div>
-                  </div>
-                </div>
               </div>
-              <div class="col">
-                <div class="card h-100">
-                  <img src="imagens/girafa-pelucia.jpg" class="tam-img rounded-top" alt="...">
-                  <div class="card-body">
+          </div>
+      </div>
+      <div class="modal fade" id="modalKitBabadores" tabindex="-1" aria-labelledby="modalKitBabadoresLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="modalKitBabadoresLabel">Kit de Babadores</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                      <div class="row">
+                          <div class="col-md-8 order-md-1 d-flex flex-column justify-content-center">
+                              <p>Detalhes do produto:</p>
+                              <ul>
+                                  <li>Contém: 3 babadores</li>
+                                  <li>Cores: Variadas</li>
+                                  <li>Material: Silicone e tecido</li>
+                              </ul>
+                              <p>Preço: R$ 49,99</p>
+                          </div>
+                          <div class="col-md-4 order-md-2">
+                              <img src="imagens/babadores-para-bebes.jpg" class="img-fluid rounded mb-3" alt="Kit de Babadores">
+                          </div>
+                      </div>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                      <button type="button" class="btn btn-style">Adicionar ao Carrinho</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col">
+          <div class="card h-100">
+              <img src="imagens/girafa-pelucia.jpg" class="tam-img rounded-top" alt="Pelúcia de Girafa">
+              <div class="card-body">
                   <h5 class="card-title">Pelúcia de Girafa</h5>
                   <p class="card-text">R$ 69,99</p>
                   <div class="d-grid gap-2">
-                      <button class="btn btn-style " type="button">Comprar</button>
+                      <button class="btn btn-style" type="button" data-bs-toggle="modal" data-bs-target="#modalPeluciaGirafa">Comprar</button>
                   </div>
-                  </div>
-                </div>
               </div>
-              <div class="col">
-                <div class="card h-100">
-                  <img src="imagens/caixa-presente.jpg" class="tam-img rounded-top" alt="...">
-                  <div class="card-body">
-                  <h5 class="card-title">Caixa Itens Básicos</h5>
-                  <p class="card-text">R$ 49,99</p>
-                  <div class="d-grid gap-2">
-                      <button class="btn btn-style " type="button">Comprar</button>
-                  </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card h-100">
-                  <img src="imagens/pelu.jpg" class="tam-img rounded-top" alt="...">
-                  <div class="card-body">
-                  <h5 class="card-title">Pelúcia Infantil Feminina</h5>
-                  <p class="card-text">R$ 75,99</p>
-                  <div class="d-grid gap-2">
-                      <button class="btn btn-style " type="button">Comprar</button>
-                  </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card h-100">
-                  <img src="imagens/tenda-infantil.jpg" class="tam-img rounded-top" alt="...">
-                  <div class="card-body">
-                  <h5 class="card-title">Tenda Infantil Minimalista</h5>
-                  <p class="card-text">R$ 199,99</p>
-                  <div class="d-grid gap-2">
-                      <button class="btn btn-style " type="button">Comprar</button>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
+      </div>
+      <div class="modal fade" id="modalPeluciaGirafa" tabindex="-1" aria-labelledby="modalPeluciaGirafaLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalPeluciaGirafaLabel">Pelúcia de Girafa</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-8 order-md-1 d-flex flex-column justify-content-center">
+                            <p>Detalhes do produto:</p>
+                            <ul>
+                                <li>Tamanho: 40cm</li>
+                                <li>Material: 100% Poliéster</li>
+                                <li>Cor: Amarelo e Laranja</li>
+                            </ul>
+                            <p>Preço: R$ 69,99</p>
+                        </div>
+                        <div class="col-md-4 order-md-2">
+                            <img src="imagens/girafa-pelucia.jpg" class="img-fluid rounded mb-3" alt="Pelúcia de Girafa">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-style">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card h-100">
+            <img src="imagens/caixa-presente.jpg" class="tam-img rounded-top" alt="Caixa Itens Básicos">
+            <div class="card-body">
+                <h5 class="card-title">Caixa Itens Básicos</h5>
+                <p class="card-text">R$ 49,99</p>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-style" type="button" data-bs-toggle="modal" data-bs-target="#modalCaixaBasicos">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modalCaixaBasicos" tabindex="-1" aria-labelledby="modalCaixaBasicosLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="modalCaixaBasicosLabel">Caixa Itens Básicos</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <div class="row">
+                      <div class="col-md-8 order-md-1 d-flex flex-column justify-content-center">
+                          <p>Detalhes do produto:</p>
+                          <ul>
+                              <li>Contém: Pente, escova, etc.</li>
+                              <li>Cores: Branca e Bege</li>
+                              <li>Material: Diversos</li>
+                          </ul>
+                          <p>Preço: R$ 49,99</p>
+                      </div>
+                      <div class="col-md-4 order-md-2">
+                          <img src="imagens/caixa-presente.jpg" class="img-fluid rounded mb-3" alt="Caixa Itens Básicos">
+                      </div>
+                  </div>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                  <button type="button" class="btn btn-style">Adicionar ao Carrinho</button>
+              </div>
+          </div>
+      </div>
+  </div>
+    <div class="col">
+        <div class="card h-100">
+            <img src="imagens/pelu.jpg" class="tam-img rounded-top" alt="Pelúcia Feminina">
+            <div class="card-body">
+                <h5 class="card-title">Pelúcia Feminina</h5>
+                <p class="card-text">R$ 75,99</p>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-style" type="button" data-bs-toggle="modal" data-bs-target="#modalPeluciaFeminina">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modalPeluciaFeminina" tabindex="-1" aria-labelledby="modalPeluciaFemininaLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalPeluciaFemininaLabel">Pelúcia Feminina</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-8 order-md-1 d-flex flex-column justify-content-center">
+                            <p>Detalhes do produto:</p>
+                            <ul>
+                                <li>Tamanho: 25cm</li>
+                                <li>Cores: Rosa claro</li>
+                                <li>Material: 100% Poliéster</li>
+                            </ul>
+                            <p>Preço: R$ 75,99</p>
+                        </div>
+                        <div class="col-md-4 order-md-2">
+                            <img src="imagens/pelu.jpg" class="img-fluid rounded mb-3" alt="Pelúcia Feminina">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-style">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card h-100">
+            <img src="imagens/tenda-infantil.jpg" class="tam-img rounded-top" alt="Tenda Minimalista">
+            <div class="card-body">
+                <h5 class="card-title">Tenda Minimalista</h5>
+                <p class="card-text">R$ 199,99</p>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-style" type="button" data-bs-toggle="modal" data-bs-target="#modalTenda">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modalTenda" tabindex="-1" aria-labelledby="modalTendaLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalTendaLabel">Tenda Minimalista</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-8 order-md-1 d-flex flex-column justify-content-center">
+                        <p>Detalhes do produto:</p>
+                        <ul>
+                            <li>Tamanho: 1.2m x 1.2m</li>
+                            <li>Material: Algodão e madeira</li>
+                            <li>Características: Fácil de montar</li>
+                        </ul>
+                        <p>Preço: R$ 199,99</p>
+                    </div>
+                    <div class="col-md-4 order-md-2">
+                        <img src="imagens/tenda-infantil.jpg" class="img-fluid rounded mb-3" alt="Tenda Minimalista">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-style">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+    </div>
+</div>
     </section> 
+    
     <section >
       <div class="container my-5">
         <div class="row text-center g-4">
