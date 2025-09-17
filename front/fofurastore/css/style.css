@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #FDF5B2A8;
+    color: #333;
+    line-height: 1.6;
+}
+
+main {
+    max-width: 1400px;   
+    margin: 0 auto;   
+    padding: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+  border-bottom: 2px solid #4E342E;
+  transition: all 0.3s ease;
+}
+
+.dropdown-menu .dropdown-item {
+  color: #4E342E;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #4E342E;
+  color: #ffffff;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: #4E342E;
+}
+.color-nav{
+    background-color: #D2B48C;
+    color: #4E342E;
+}
+
+.btn-style{
+    border-color:  #4E342E;
+    background-color: #D2B48C ;
+}
+
+.btn-style:hover{
+  background-color: #4E342E ;
+  color: white;
+}
+
+.dropdown-color{
+  background-color: #D2B48C ;
+}
+
+.footer-style{
+    background-color: #D2B48C;
+}
+
+.tam-img{
+    height: auto;
+    width: 100%;
+}
+
+.card-space{
+    margin-top: 30px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+
+.depoimento{
+margin-top: 30px;
+}
+
+.sobre {
+  background-color: #D2B48C; 
+  margin-top: 30px;
+  padding: 50px 0;
+}
+
+
+
+.sobre h1 {
+  color: #4E342E;   
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+.sobre p {
+  color: #5C4033;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.img-sobre {
+  width: 100%;     
+  max-width: 500px;  
+  height: auto;      
+}
+
+.circle-color{
+    background-color:#D2B48C;
+}
+.card-custom {
+    border: 2px solid #D2B48C; 
+  }
+  
+.center-caption {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #db2672;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.carousel-item {
+  height: 100%;
+  max-height: 600px;
+  width: 100%;
+}
+.carousel-item img {
+  object-fit: cover;
+  width: 100%;
+  height: 600px;
+}
+*/
+.carousel-caption .caption-box {
+  color: #4E342E;
+  padding: 15px;
+  border-radius: 8px;
+  width: 100%;     
+} 
+
+@media (max-width:1000px) {
+  .carousel-caption h2 {
+    font-size: 1.5rem;
+  }
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+  .carousel-caption .btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+}
+
+.card-body {
+  border: 1px solid #D2B48C; 
+  border-radius: 8px;    
+  padding: 1rem;          
+  margin: 1rem;         
+}
+
