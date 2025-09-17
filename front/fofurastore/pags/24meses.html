@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/front/fofurastore/css/style.css">
     <title>Fofura Store</title>
 </head>
 
@@ -13,24 +13,26 @@
     <header>
         <nav class="navbar navbar-expand-lg  color-nav">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Fofura Store</a>
+              <a class="navbar-brand" href="index.html">
+                <img src="/front/fofurastore/imagens/ideia-logo.png" alt="Fofura Store" style="height: 60px;">Fofura Store
+              </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link " aria-current="page" href="/front/fofurastore/index.html">Home</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Produtos
                     </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">destaque</a></li>
-                      <li><a class="dropdown-item" href="#">Ofertas especiais</a></li>
+                    <ul class="dropdown-menu dropdown-color">
+                      <li><a class="dropdown-item teste" href="#destaque">Destaque</a></li>
+                      <li><a class="dropdown-item" href="#ofertas">Ofertas Especiais</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Unissex</a></li>
+                      <li><a class="dropdown-item" href="#produto">Produtos Gerais</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
@@ -43,16 +45,16 @@
                 </form>
               </div>
             </div>
-          </nav>
+          </nav>  
 
           <section>
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active" style="height: 600px;">
-                  <img src="imagens/12_meses_banner 1.jpg" class="d-block w-100" alt="Banner 1">
+                  <img src="/front/fofurastore/imagens/24_meses_banner2.jpg" class="d-block w-100" alt="Banner 2">
                   <div class="carousel-caption d-block d-md-block">
                     <div class="caption-box">
-                      <h1>Até 12 meses</h1>
+                      <h1>Até 24 meses</h1>
                       <P>O presente certo na idade certa!</P>
                     </div>
                   </div>
@@ -68,7 +70,7 @@
          <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-4">
               <div class="col">
                 <div class="card h-100">
-                    <img src="imagens/sapatos-de-bebe.jpg" class="tam-img rounded-top" alt="Sapato Masculino">
+                    <img src="/front/fofurastore/imagens/sapatos-de-bebe.jpg" class="tam-img rounded-top" alt="Sapato Masculino">
                     <div class="card-body">
                         <h5 class="card-title">Sapato Masculino</h5>
                         <p class="card-text">R$ 49,99</p>
@@ -97,7 +99,7 @@
                                     <p>Preço: R$ 49,99</p>
                                 </div>
                                 <div class="col-md-4 order-md-2">
-                                    <img src="imagens/sapatos-de-bebe.jpg" class="img-fluid rounded mb-3" alt="Sapato Masculino">
+                                    <img src="/front/fofurastore/imagens/sapatos-de-bebe.jpg" class="img-fluid rounded mb-3" alt="Sapato Masculino">
                                 </div>
                             </div>
                         </div>
@@ -110,7 +112,7 @@
             </div>
               <div class="col">
                   <div class="card h-100">
-                      <img src="imagens/luminaria.jpg" class="tam-img rounded-top" alt="Luminária de Lua">
+                      <img src="/front/fofurastore/imagens/luminaria.jpg" class="tam-img rounded-top" alt="Luminária de Lua">
                       <div class="card-body">
                           <h5 class="card-title">Luminária de Lua</h5>
                           <p class="card-text">R$ 119,99</p>
@@ -139,7 +141,7 @@
                                       <p>Preço: R$ 119,99</p>
                                   </div>
                                   <div class="col-md-4 order-md-2">
-                                      <img src="imagens/luminaria.jpg" class="img-fluid rounded mb-3" alt="Luminária de Lua">
+                                      <img src="/front/fofurastore/imagens/luminaria.jpg" class="img-fluid rounded mb-3" alt="Luminária de Lua">
                                   </div>
                               </div>
                           </div>
@@ -152,7 +154,7 @@
               </div>
               <div class="col">
                 <div class="card h-100">
-                    <img src="imagens/conjunto-masculino.jpg" class="tam-img rounded-top" alt="Conjunto Masculino">
+                    <img src="/front/fofurastore/imagens/conjunto-masculino.jpg" class="tam-img rounded-top" alt="Conjunto Masculino">
                     <div class="card-body">
                         <h5 class="card-title">Conjunto Masculino</h5>
                         <p class="card-text">R$ 99,99</p>
@@ -181,7 +183,7 @@
                                     <p>Preço: R$ 99,99</p>
                                 </div>
                                 <div class="col-md-4 order-md-2">
-                                    <img src="imagens/conjunto-masculino.jpg" class="img-fluid rounded mb-3" alt="Conjunto Masculino">
+                                    <img src="/front/fofurastore/imagens/conjunto-masculino.jpg" class="img-fluid rounded mb-3" alt="Conjunto Masculino">
                                 </div>
                             </div>
                         </div>
@@ -194,7 +196,7 @@
             </div>
               <div class="col">
                   <div class="card h-100">
-                      <img src="imagens/luminaria2.jpg" class="tam-img rounded-top" alt="Decoração para quarto">
+                      <img src="/front/fofurastore/imagens/luminaria2.jpg" class="tam-img rounded-top" alt="Decoração para quarto">
                       <div class="card-body">
                           <h5 class="card-title">Decoração para quarto</h5>
                           <p class="card-text">R$ 129,99</p>
@@ -223,7 +225,7 @@
                                       <p>Preço: R$ 129,99</p>
                                   </div>
                                   <div class="col-md-4 order-md-2">
-                                      <img src="imagens/luminaria2.jpg" class="img-fluid rounded mb-3" alt="Decoração para quarto">
+                                      <img src="/front/fofurastore/imagens/luminaria2.jpg" class="img-fluid rounded mb-3" alt="Decoração para quarto">
                                   </div>
                               </div>
                           </div>
@@ -236,7 +238,7 @@
               </div>
               <div class="col">
               <div class="card h-100">
-                  <img src="imagens/ursinho.jpg" class="tam-img rounded-top" alt="Canto de Brinquedos">
+                  <img src="/front/fofurastore/imagens/ursinho.jpg" class="tam-img rounded-top" alt="Canto de Brinquedos">
                   <div class="card-body">
                       <h5 class="card-title">Canto de Brinquedos</h5>
                       <p class="card-text">R$ 89,99</p>
@@ -265,7 +267,7 @@
                                     <p>Preço: R$ 89,99</p>
                                 </div>
                                 <div class="col-md-4 order-md-2">
-                                    <img src="imagens/ursinho.jpg" class="img-fluid rounded mb-3" alt="Canto de Brinquedos">
+                                    <img src="/front/fofurastore/imagens/ursinho.jpg" class="img-fluid rounded mb-3" alt="Canto de Brinquedos">
                                 </div>
                             </div>
                         </div>
@@ -278,7 +280,7 @@
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <img src="imagens/abajur.jpg" class="tam-img rounded-top" alt="Luminária Arco-Íris">
+                    <img src="/front/fofurastore/imagens/abajur.jpg" class="tam-img rounded-top" alt="Luminária Arco-Íris">
                     <div class="card-body">
                         <h5 class="card-title">Luminária Arco-Íris</h5>
                         <p class="card-text">R$ 109,99</p>
@@ -307,7 +309,7 @@
                                 <p>Preço: R$ 109,99</p>
                             </div>
                             <div class="col-md-4 order-md-2">
-                                <img src="imagens/abajur.jpg" class="img-fluid rounded mb-3" alt="Luminária Arco-Íris">
+                                <img src="/front/fofurastore/imagens/abajur.jpg" class="img-fluid rounded mb-3" alt="Luminária Arco-Íris">
                             </div>
                         </div>
                     </div>
@@ -320,7 +322,7 @@
         </div>
         <div class="col">
             <div class="card h-100">
-                <img src="imagens/caixa-minimalista.jpg" class="tam-img rounded-top" alt="Caixa Minimalista">
+                <img src="/front/fofurastore/imagens/caixa-minimalista.jpg" class="tam-img rounded-top" alt="Caixa Minimalista">
                 <div class="card-body">
                     <h5 class="card-title">Caixa Minimalista</h5>
                     <p class="card-text">R$ 79,99</p>
@@ -349,7 +351,7 @@
                               <p>Preço: R$ 79,99</p>
                           </div>
                           <div class="col-md-4 order-md-2">
-                              <img src="imagens/caixa-minimalista.jpg" class="img-fluid rounded mb-3" alt="Caixa Minimalista">
+                              <img src="/front/fofurastore/imagens/caixa-minimalista.jpg" class="img-fluid rounded mb-3" alt="Caixa Minimalista">
                           </div>
                       </div>
                   </div>
@@ -362,7 +364,7 @@
       </div>
       <div class="col">
           <div class="card h-100">
-              <img src="imagens/babadores-para-bebes.jpg" class="tam-img rounded-top" alt="Kit de Babadores">
+              <img src="/front/fofurastore/imagens/babadores-para-bebes.jpg" class="tam-img rounded-top" alt="Kit de Babadores">
               <div class="card-body">
                   <h5 class="card-title">Kit de Babadores</h5>
                   <p class="card-text">R$ 49,99</p>
@@ -391,7 +393,7 @@
                               <p>Preço: R$ 49,99</p>
                           </div>
                           <div class="col-md-4 order-md-2">
-                              <img src="imagens/babadores-para-bebes.jpg" class="img-fluid rounded mb-3" alt="Kit de Babadores">
+                              <img src="/front/fofurastore/imagens/babadores-para-bebes.jpg" class="img-fluid rounded mb-3" alt="Kit de Babadores">
                           </div>
                       </div>
                   </div>
@@ -404,7 +406,7 @@
       </div>
       <div class="col">
           <div class="card h-100">
-              <img src="imagens/girafa-pelucia.jpg" class="tam-img rounded-top" alt="Pelúcia de Girafa">
+              <img src="/front/fofurastore/imagens/girafa-pelucia.jpg" class="tam-img rounded-top" alt="Pelúcia de Girafa">
               <div class="card-body">
                   <h5 class="card-title">Pelúcia de Girafa</h5>
                   <p class="card-text">R$ 69,99</p>
@@ -433,7 +435,7 @@
                             <p>Preço: R$ 69,99</p>
                         </div>
                         <div class="col-md-4 order-md-2">
-                            <img src="imagens/girafa-pelucia.jpg" class="img-fluid rounded mb-3" alt="Pelúcia de Girafa">
+                            <img src="/front/fofurastore/imagens/girafa-pelucia.jpg" class="img-fluid rounded mb-3" alt="Pelúcia de Girafa">
                         </div>
                     </div>
                 </div>
@@ -446,7 +448,7 @@
     </div>
     <div class="col">
         <div class="card h-100">
-            <img src="imagens/caixa-presente.jpg" class="tam-img rounded-top" alt="Caixa Itens Básicos">
+            <img src="/front/fofurastore/imagens/caixa-presente.jpg" class="tam-img rounded-top" alt="Caixa Itens Básicos">
             <div class="card-body">
                 <h5 class="card-title">Caixa Itens Básicos</h5>
                 <p class="card-text">R$ 49,99</p>
@@ -475,7 +477,7 @@
                           <p>Preço: R$ 49,99</p>
                       </div>
                       <div class="col-md-4 order-md-2">
-                          <img src="imagens/caixa-presente.jpg" class="img-fluid rounded mb-3" alt="Caixa Itens Básicos">
+                          <img src="/front/fofurastore/imagens/caixa-presente.jpg" class="img-fluid rounded mb-3" alt="Caixa Itens Básicos">
                       </div>
                   </div>
               </div>
@@ -488,7 +490,7 @@
   </div>
     <div class="col">
         <div class="card h-100">
-            <img src="imagens/pelu.jpg" class="tam-img rounded-top" alt="Pelúcia Feminina">
+            <img src="/front/fofurastore/imagens/pelu.jpg" class="tam-img rounded-top" alt="Pelúcia Feminina">
             <div class="card-body">
                 <h5 class="card-title">Pelúcia Feminina</h5>
                 <p class="card-text">R$ 75,99</p>
@@ -517,7 +519,7 @@
                             <p>Preço: R$ 75,99</p>
                         </div>
                         <div class="col-md-4 order-md-2">
-                            <img src="imagens/pelu.jpg" class="img-fluid rounded mb-3" alt="Pelúcia Feminina">
+                            <img src="/front/fofurastore/imagens/pelu.jpg" class="img-fluid rounded mb-3" alt="Pelúcia Feminina">
                         </div>
                     </div>
                 </div>
@@ -530,7 +532,7 @@
     </div>
     <div class="col">
         <div class="card h-100">
-            <img src="imagens/tenda-infantil.jpg" class="tam-img rounded-top" alt="Tenda Minimalista">
+            <img src="/front/fofurastore/imagens/tenda-infantil.jpg" class="tam-img rounded-top" alt="Tenda Minimalista">
             <div class="card-body">
                 <h5 class="card-title">Tenda Minimalista</h5>
                 <p class="card-text">R$ 199,99</p>
@@ -560,7 +562,7 @@
                         <p>Preço: R$ 199,99</p>
                     </div>
                     <div class="col-md-4 order-md-2">
-                        <img src="imagens/tenda-infantil.jpg" class="img-fluid rounded mb-3" alt="Tenda Minimalista">
+                        <img src="/front/fofurastore/imagens//tenda-infantil.jpg" class="img-fluid rounded mb-3" alt="Tenda Minimalista">
                     </div>
                 </div>
             </div>
@@ -571,7 +573,8 @@
             </div>
         </div>
     </div>
-    </section> 
+    </section>  
+    <section >  
                  
     </header>
     <footer class="text-center text-lg-start mt-5 footer-style">
